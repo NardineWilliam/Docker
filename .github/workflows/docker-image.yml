@@ -21,8 +21,8 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          docker build -t nardinewilliam/Docker:latest .
+          docker build -t nardinewilliam/docker:latest .
 
       - name: Push Docker image
         run: |
-          docker push nardinewilliam/Docker:latest
+          docker push nardinewilliam/docker:latest
