@@ -21,8 +21,8 @@ jobs:
 
       - name: Build the Docker image
         run: |
-          docker build -t nardinewilliam/laravel-authentication:latest .
+          docker build -t NardineWilliam/Docker:latest .
 
       - name: Push Docker image
         run: |
-          docker push nardinewilliam/laravel-authentication:latest
+          docker push NardineWilliam/Docker:latest
